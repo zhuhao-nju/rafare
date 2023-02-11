@@ -40,8 +40,8 @@ A pre-processing is required to crop the image to be square. Our method is not s
 
 Test a single image:
 ```
-python3 ./tools/test_image_single.py --input_fn ./data/test_imgs/93.png --num_samples 180000 # for 24G GPU memory
-python3 ./tools/test_image_single.py --input_fn ./data/test_imgs/93.png --num_samples 80000 # for 12G GPU memory
+python3 ./tools/test_image_single.py --input_fn ./data/test_imgs/1.png --num_samples 180000 # for 24G GPU memory
+python3 ./tools/test_image_single.py --input_fn ./data/test_imgs/1.png --num_samples 80000 # for 12G GPU memory
 ```
 
 Test multiple images in a folder:
