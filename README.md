@@ -1,5 +1,5 @@
 # RAFaRe
-This is the official repository of ''Learning Robust and Accurate Non-parametric 3D Face Reconstruction from Pseudo 2D&3D Pairs'', AAAI 2023 (Oral). [[Project Page]](https://longwg.github.io/projects/RAFaRe/)
+This is the official repository of ''Learning Robust and Accurate Non-parametric 3D Face Reconstruction from Pseudo 2D&3D Pairs'', AAAI 2023 (Oral). [[Project Page]](https://longwg.github.io/projects/RAFaRe/) [[arXiv]](https://arxiv.org/pdf/2302.05486.pdf)
 
 <img src="data/GIFs/baijia_vis.gif" width="738" height="160"/>
 <img src="data/GIFs/obama_vis.gif" width="738" height="160"/>
@@ -36,7 +36,7 @@ Or download from Google drive:
 
 ### Run Testing
 
-A pre-processing is required to crop the image to be square. Our method is not sensitive to the position of the face, and the size of the face suggested to be 50%-90% of image size.
+A pre-processing is required to crop the image to be square. Our method is not sensitive to the position of the face, and the size of the face should be 50%-90% of the image size.
 
 Test a single image:
 ```
